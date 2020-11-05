@@ -14,8 +14,16 @@ class Csv {
 
         return $rows;
     }
+
     // write into csv file given $row
-    public function write_csv($fileName, $row) {
+    public function write_csv($fileName, $rows) {
         $file = fopen($fileName, 'w');
+
+        foreach($rows as $row) {
+            $val = explode(",", $row);
+            fputcsv($file, $val);
+        }
+
+        fclose($file);
     }
 }
