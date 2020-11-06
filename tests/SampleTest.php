@@ -1,6 +1,6 @@
 <?php
 
-namespace Paysera\CommissionTask\Tests;
+namespace Task\CommissionTask\Tests;
 
 use PHPUnit\Framework\TestCase;
 

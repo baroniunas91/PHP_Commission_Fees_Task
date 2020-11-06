@@ -1,6 +1,6 @@
 <?php
 
-use Paysera\CommissionTask\CalculateFees;
+use Task\CommissionTask\CalculateFees;
 
 define('DIR', __DIR__ . '/');
 require DIR . 'vendor/autoload.php';

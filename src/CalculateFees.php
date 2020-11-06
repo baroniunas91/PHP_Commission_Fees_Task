@@ -1,23 +1,23 @@
 <?php
 
-namespace Paysera\CommissionTask;
+namespace Task\CommissionTask;
 
-use Paysera\CommissionTask\Csv;
+use Task\CommissionTask\Csv;
 
 class CalculateFees {
-
+    // cash in props
     private $commissionFeeCashIn = 0.03;
     private $maxCommissionFeeCashIn = 5;
-
+    // cash out props
     private $commissionFeeCashOut = 0.3;
     private $minCommissionFeeCashOut = 0.5;
-
+    // available currencies
     private $currencyUSD = 1.1497;
     private $currencyJPY = 129.53;
-
+    // discount rules
     private $discountTimes = 3;
     private $freeOfChargeAmount = 1000;
-
+    // array where commission fees results will be store
     private $commissionFeesArray = [];
 
     // create new object and start calculating data

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Paysera\CommissionTask\Tests\Service;
+namespace Task\CommissionTask\Tests\Service;
 
 use PHPUnit\Framework\TestCase;
-use Paysera\CommissionTask\Service\Math;
+use Task\CommissionTask\Service\Math;
 
 class MathTest extends TestCase
 {

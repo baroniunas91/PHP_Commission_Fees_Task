@@ -1,6 +1,6 @@
 <?php
 
-namespace Paysera\CommissionTask;
+namespace Task\CommissionTask;
 
 class Csv {
     // read csv file and return array
