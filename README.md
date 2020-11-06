@@ -1,6 +1,6 @@
 # Commission Fees Task
-- Please clone repository
-- Open cloned folder in Visual Studio Code
+- Please download repository
+- Open downloaded folder in Visual Studio Code
 - Open terminal (on Windows: Ctrl+Shift+`)
 - Run the command php script.php input.csv (input.csv -> is a parameter)
 - Script read input.csv file and calculate commission fees according that file
